@@ -1,0 +1,10 @@
+Y17:01:03.976 [Test worker] DEBUG g.relationalStreams.CommitEventsTest - >> getInstance()
+\17:01:04.002 [Test worker] DEBUG g.relationalStreams.CommitEventsTest - >> addCommitEvent()
+e17:01:04.105 [Test worker] DEBUG g.relationalStreams.CommitEventsTest - >> setIndexedPropertyNames()
+i17:01:04.105 [Test worker] INFO  g.r.IndexedRelationalEventStream - Building the map for indexed streams
+X17:01:04.105 [Test worker] INFO  g.r.IndexedRelationalEventStream - Indexed by authorID
+V17:01:04.106 [Test worker] INFO  g.r.IndexedRelationalEventStream - Indexed by repoID
+i17:01:04.110 [Test worker] DEBUG g.relationalStreams.CommitEventsTest - >> setIndexedPropertyNamesNull()
+i17:01:04.111 [Test worker] INFO  g.r.IndexedRelationalEventStream - Building the map for indexed streams
+\17:01:04.146 [Test worker] DEBUG g.relationalStreams.CommitEventsTest - >> getPropertyMap()
+-Commit Maps: [repoID, authorID, committerID]

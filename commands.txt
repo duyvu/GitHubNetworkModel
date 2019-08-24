@@ -1,0 +1,1 @@
+java -classpath acaLast.jar:libs/* experiments/ConfigurableExperiment models/experiment.xml

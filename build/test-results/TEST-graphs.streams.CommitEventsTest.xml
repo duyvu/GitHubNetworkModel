@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphs.streams.CommitEventsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-01-10T11:42:09" hostname="Alibaba" time="0.318">
+  <properties/>
+  <testcase name="getInstance" classname="graphs.streams.CommitEventsTest" time="0.012"/>
+  <testcase name="addCommitEvent" classname="graphs.streams.CommitEventsTest" time="0.156"/>
+  <testcase name="setIndexedPropertyNames" classname="graphs.streams.CommitEventsTest" time="0.002"/>
+  <testcase name="setIndexedPropertyNamesNull" classname="graphs.streams.CommitEventsTest" time="0.001"/>
+  <testcase name="getPropertyMap" classname="graphs.streams.CommitEventsTest" time="0.002"/>
+  <system-out><![CDATA[22:42:09.268 [Test worker] DEBUG graphs.streams.CommitEventsTest - >> getInstance()
+22:42:09.309 [Test worker] DEBUG graphs.streams.CommitEventsTest - >> addCommitEvent()
+22:42:09.477 [Test worker] DEBUG graphs.streams.CommitEventsTest - >> setIndexedPropertyNames()
+22:42:09.484 [Test worker] DEBUG graphs.streams.CommitEventsTest - >> setIndexedPropertyNamesNull()
+22:42:09.581 [Test worker] DEBUG graphs.streams.CommitEventsTest - >> getPropertyMap()
+Commit Maps: [repoID, authorID, committerID]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

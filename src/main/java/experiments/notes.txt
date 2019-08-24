@@ -1,0 +1,19 @@
+Load a property file of names and corresponding samplers
+
+Load EventStreams from a mapped file
+
+	the full name path of event classes 
+
+Load AtRiskStatuses from a mapped file
+
+	Users, Projects, ... and AtRiskStatus classes
+
+Load IndexedRelationalEventStreams from a mapped file
+
+	the short name of event classes
+	
+GetGitHubEventStreamProcessors
+	loadAtRiskEventStreamProcessors
+	loadRelationalEventStreamProcessors
+		the short name of event classes
+		one to many

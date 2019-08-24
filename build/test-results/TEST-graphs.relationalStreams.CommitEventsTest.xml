@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphs.relationalStreams.CommitEventsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-02-07T06:01:03" hostname="Alibaba" time="0.173">
+  <properties/>
+  <testcase name="getInstance" classname="graphs.relationalStreams.CommitEventsTest" time="0.008"/>
+  <testcase name="addCommitEvent" classname="graphs.relationalStreams.CommitEventsTest" time="0.098"/>
+  <testcase name="setIndexedPropertyNames" classname="graphs.relationalStreams.CommitEventsTest" time="0.002"/>
+  <testcase name="setIndexedPropertyNamesNull" classname="graphs.relationalStreams.CommitEventsTest" time="0.001"/>
+  <testcase name="getPropertyMap" classname="graphs.relationalStreams.CommitEventsTest" time="0.001"/>
+  <system-out><![CDATA[17:01:03.976 [Test worker] DEBUG g.relationalStreams.CommitEventsTest - >> getInstance()
+17:01:04.002 [Test worker] DEBUG g.relationalStreams.CommitEventsTest - >> addCommitEvent()
+17:01:04.105 [Test worker] DEBUG g.relationalStreams.CommitEventsTest - >> setIndexedPropertyNames()
+17:01:04.105 [Test worker] INFO  g.r.IndexedRelationalEventStream - Building the map for indexed streams
+17:01:04.105 [Test worker] INFO  g.r.IndexedRelationalEventStream - Indexed by authorID
+17:01:04.106 [Test worker] INFO  g.r.IndexedRelationalEventStream - Indexed by repoID
+17:01:04.110 [Test worker] DEBUG g.relationalStreams.CommitEventsTest - >> setIndexedPropertyNamesNull()
+17:01:04.111 [Test worker] INFO  g.r.IndexedRelationalEventStream - Building the map for indexed streams
+17:01:04.146 [Test worker] DEBUG g.relationalStreams.CommitEventsTest - >> getPropertyMap()
+Commit Maps: [repoID, authorID, committerID]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

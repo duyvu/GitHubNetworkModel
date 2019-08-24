@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graphs.atRisks.UserAtRiskStatusTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-01-10T11:42:09" hostname="Alibaba" time="0.305">
+  <properties/>
+  <testcase name="getInstance" classname="graphs.atRisks.UserAtRiskStatusTest" time="0.001"/>
+  <testcase name="addUserEvent" classname="graphs.atRisks.UserAtRiskStatusTest" time="0.003"/>
+  <testcase name="addUserEventForUserAlreadyInList" classname="graphs.atRisks.UserAtRiskStatusTest" time="0.003"/>
+  <testcase name="isUserAtRisk" classname="graphs.atRisks.UserAtRiskStatusTest" time="0.0"/>
+  <testcase name="removeAtRiskUser" classname="graphs.atRisks.UserAtRiskStatusTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

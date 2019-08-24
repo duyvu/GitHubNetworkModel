@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47" started-at="2015-01-07T02:03:51Z" finished-at="2015-01-07T02:03:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47" started-at="2015-01-07T02:03:51Z" finished-at="2015-01-07T02:03:51Z">
+      <class name="events.EventTest">
+        <test-method status="PASS" signature="Constructor()[pri:0, instance:events.EventTest@6dea9b6e]" name="Constructor" duration-ms="17" started-at="2015-01-07T13:03:51Z" finished-at="2015-01-07T13:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Constructor -->
+        <test-method status="PASS" signature="compareTo()[pri:0, instance:events.EventTest@6dea9b6e]" name="compareTo" duration-ms="3" started-at="2015-01-07T13:03:51Z" depends-on-methods="events.EventTest.Constructor" finished-at="2015-01-07T13:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareTo -->
+        <test-method status="PASS" signature="equals()[pri:0, instance:events.EventTest@6dea9b6e]" name="equals" duration-ms="3" started-at="2015-01-07T13:03:51Z" depends-on-methods="events.EventTest.Constructor" finished-at="2015-01-07T13:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- equals -->
+        <test-method status="PASS" signature="getTime()[pri:0, instance:events.EventTest@6dea9b6e]" name="getTime" duration-ms="1" started-at="2015-01-07T13:03:51Z" depends-on-methods="events.EventTest.Constructor" finished-at="2015-01-07T13:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTime -->
+        <test-method status="PASS" signature="setTime()[pri:0, instance:events.EventTest@6dea9b6e]" name="setTime" duration-ms="0" started-at="2015-01-07T13:03:51Z" depends-on-methods="events.EventTest.Constructor" finished-at="2015-01-07T13:03:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTime -->
+      </class> <!-- events.EventTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
