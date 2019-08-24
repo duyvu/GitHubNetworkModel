@@ -6,11 +6,14 @@ The model and results were presented at XXI Organization Science Winter Conferen
 
 The original SQL data dump was downloaded from [the MSR 2014 Mining Challenge Dataset](http://ghtorrent.org/msr14.html). It was then queried and stored in the directory **data/events** under CSV format.
 
-The code requires SAS to be installed and the shell command **sas** is available:
+Other implementation notes:
 
-+ Java code is responsible to process event streams and sample nested case control data. 
++ Gradle is used to run test suite (TestNG) and build jar files.
 
-+ SAS PHREG command is used to obtain coefficient estimates.    
++ Java code is responsible to process event streams and sample nested case control data, 
+
++ SAS scripts with PHREG commands are generated to obtain coefficient estimates. Therefore, this implementation requires SAS to be installed and the shell command **sas** is available. Another option is to use **clogit** in R by modifying the class **java.engines.NetworkEventInferenceEngine.java**.
+
 
 
 
